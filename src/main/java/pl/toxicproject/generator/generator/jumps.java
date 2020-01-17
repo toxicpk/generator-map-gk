@@ -8,7 +8,7 @@ public class jumps {
     public static void makeRandomJump(int difficulty, int x, int y, int z, World world) {
         Random rand = new Random();
         int id = 1;
-        Bukkit.broadcastMessage(id);
+        Bukkit.broadcastMessage("po co to tu jest XD");
         int ex = 0;
         int ey = 0;
         int ez = 0;
