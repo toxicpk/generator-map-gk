@@ -1,0 +1,8 @@
+name: GeneratorMapMow
+main: pl.toxicproject.generator.Main
+version: 1.8
+commands:
+  generate:
+    description: Daje mozliwosc sprawdzenia,jakie statystyki prywatne posiada dany gracz.
+    permission: parkour.op
+    permission-message: You don't have admin.
