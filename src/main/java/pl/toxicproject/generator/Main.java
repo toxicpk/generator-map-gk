@@ -1,17 +1,19 @@
 package pl.toxicproject.generator;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import pl.toxicproject.generator.command.GenerateCommand;
 
 public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        System.out.println("Enabling...");
+        getCommand("generate").setExecutor(new GenerateCommand());
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        super.onDisable();
+        System.out.println("Disabling...");
     }
 }
