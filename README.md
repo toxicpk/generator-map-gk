@@ -1,3 +1,2 @@
-# generator-map-gk
-plugin na generowanie z grubaskrafta
-WUZA8
+# Map Generator 
+A plugin that generates maps in Minecraft from GrubasKraft.
